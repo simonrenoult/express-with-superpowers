@@ -1,0 +1,60 @@
+{
+  "name": "express-with-superpowers",
+  "version": "0.0.1",
+  "description": "Opinionated configuration for Express API.",
+  "main": "src/server.js",
+  "author": "Simon Renoult <simon.renoult@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "express",
+    "plugin",
+    "plugins",
+    "preset"
+  ],
+  "engines": {
+    "node": ">= 10.10.0",
+    "npm": ">= 6.4.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "prestart": "npm run version:check",
+    "pretest": "npm run version:check && npm run lint",
+    "start": "node bin/start.js",
+    "stop": "node bin/stop.js",
+    "test:e2e": "NODE_ENV=test mocha --recursive --file=test/e2e/hook.js",
+    "test": "npm run test:e2e",
+    "version:check": "check-node-version --package",
+    "watch": "nodemon bin/start.js | bunyan"
+  },
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "boom": "7.2.0",
+    "bunyan": "1.8.12",
+    "camelcase": "5.0.0",
+    "check-node-version": "3.2.0",
+    "compression": "1.7.3",
+    "cors": "2.8.4",
+    "dotenv": "6.0.0",
+    "express": "4.16.3",
+    "helmet": "3.13.0",
+    "http-status": "1.2.0",
+    "nconf": "0.10.0",
+    "require-directory": "2.1.1",
+    "response-time": "2.3.2",
+    "serve-favicon": "2.5.0",
+    "swagger-ui-express": "4.0.1",
+    "walk": "2.3.14"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "eslint": "5.6.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-config-prettier": "3.0.1",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-prettier": "2.6.2",
+    "got": "9.2.2",
+    "mocha": "5.2.0",
+    "nodemon": "1.18.4",
+    "prettier": "1.14.2"
+  }
+}
