@@ -22,8 +22,9 @@
     "pretest": "npm run version:check && npm run lint",
     "start": "node bin/start.js",
     "stop": "node bin/stop.js",
-    "test:e2e": "NODE_ENV=test mocha --recursive --file=test/e2e/hook.js",
-    "test": "npm run test:e2e",
+    "test:e2e": "NODE_ENV=test mocha --recursive --file=test/e2e/hook.js test/e2e",
+    "test:unit": "NODE_ENV=test mocha --recursive test/unit",
+    "test": "NODE_ENV=test mocha --recursive --file=test/e2e/hook.js test/",
     "version:check": "check-node-version --package",
     "watch": "nodemon bin/start.js | bunyan"
   },
