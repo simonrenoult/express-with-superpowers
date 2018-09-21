@@ -30,6 +30,7 @@ Features
 - [X] Separate business modules
 - [X] Separate Swagger documentation
 - [ ] Metrics endpoint
+- [X] Test coverage
 
 
 Created by
