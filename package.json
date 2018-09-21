@@ -56,5 +56,13 @@
     "mocha": "5.2.0",
     "nodemon": "1.18.4",
     "prettier": "1.14.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simonrenoult/express-with-superpowers"
+  },
+  "bugs": {
+    "url": "https://github.com/simonrenoult/express-with-superpowers/issues"
   }
+
 }
