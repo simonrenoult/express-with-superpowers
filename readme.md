@@ -31,6 +31,7 @@ Features
 - [X] Separate Swagger documentation
 - [ ] Metrics endpoint
 - [X] Test coverage
+- [X] Travis support
 
 
 Created by
