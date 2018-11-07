@@ -57,7 +57,7 @@
     "mocha": "5.2.0",
     "nodemon": "1.18.4",
     "nyc": "13.0.1",
-    "prettier": "1.14.3"
+    "prettier": "1.15.0"
   },
   "repository": {
     "type": "git",
