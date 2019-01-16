@@ -50,7 +50,7 @@
     "chai": "4.1.2",
     "eslint": "5.6.0",
     "eslint-config-airbnb-base": "13.1.0",
-    "eslint-config-prettier": "3.4.0",
+    "eslint-config-prettier": "3.5.0",
     "eslint-plugin-import": "2.14.0",
     "eslint-plugin-prettier": "2.6.2",
     "got": "9.2.2",
