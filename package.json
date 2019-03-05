@@ -32,7 +32,7 @@
     "body-parser": "1.18.3",
     "boom": "7.2.0",
     "bunyan": "1.8.12",
-    "camelcase": "5.1.0",
+    "camelcase": "5.2.0",
     "check-node-version": "3.2.0",
     "compression": "1.7.3",
     "cors": "2.8.4",
